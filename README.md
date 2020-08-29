@@ -48,7 +48,7 @@ Can now change Speed and Gear location & color in custom Gauges
 Added support for transparency
 
 made by afonsosousah
-[![N|Solid](https://i.imgur.com/Z4aVH00.gif)](https://www.afonsosousah.xyz)
+[![N|Solid](https://i.imgur.com/h2WrXcZ.gif)](https://www.afonsosousah.xyz)
 
    [2.0]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v2.0.exe/>
    [1.3]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v1.3.exe/>

@@ -35,6 +35,7 @@ Please report any bugs found
 
 ### Preview
 [![Preview Video](/docs/ezgif.com-gif-maker.gif)](https://streamable.com/hp31sj)
+
 version in the video is 2.0
 
 
@@ -48,6 +49,7 @@ version in the video is 2.0
 - Added support for transparency
 
 made by afonsosousah
+
 [![N|Solid](/docs/afonso1234logo_trans100x100.gif)](https://www.afonsosousah.xyz)
 
    [2.0]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v2.0.exe/>

@@ -34,21 +34,21 @@ Please report any bugs found
 | 1.0| [Download 1.0][1.0] |
 
 ### Preview
-[![Preview Video](https://i.imgur.com/n3VSV9B.gif)](https://streamable.com/hp31sj)
+[![Preview Video](/docs/ezgif.com-gif-maker.gif)](https://streamable.com/hp31sj)
 version in the video is 2.0
 
 
 ### Changelog
 
->Fully rewritten in C#
-Significant performance improvement
-Fixed "Out of Memory" error when maxing out ProgressBar
-Lower CPU Usage (but a little higher memory usage)
-Can now change Speed and Gear location & color in custom Gauges
-Added support for transparency
+- Fully rewritten in C#
+- Significant performance improvement
+- Fixed "Out of Memory" error when maxing out ProgressBar
+- Lower CPU Usage (but a little higher memory usage)
+- Can now change Speed and Gear location & color in custom Gauges
+- Added support for transparency
 
 made by afonsosousah
-[![N|Solid](https://i.imgur.com/h2WrXcZ.gif)](https://www.afonsosousah.xyz)
+[![N|Solid](/docs/afonso1234logo_trans100x100.gif)](https://www.afonsosousah.xyz)
 
    [2.0]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v2.0.exe/>
    [1.3]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v1.3.exe/>

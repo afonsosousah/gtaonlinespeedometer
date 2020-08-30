@@ -52,7 +52,7 @@ made by afonsosousah
 
 [![N|Solid](/docs/afonso1234logo_trans100x100.gif)](https://www.afonsosousah.xyz)
 
-   [2.0]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v2.0.exe/>
+   [2.0]: <https://github.com/afonsosousah/gtaonlinespeedometer/releases/download/2.0/GTA+Info_v2.0.exe/>
    [1.3]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v1.3.exe/>
    [1.2.1]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v1.2.1.exe/>
    [1.2]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v1.2.exe>

@@ -6,7 +6,7 @@ Rewritten in C# using WPF for v2.0
 Thanks to Shirabrixx82 for the original concept and the major part of the offsets utilized and also Gopinath001 for the incredible Pattern Scanner!
 It works on all three versions of GTA V (including online).
 
-### Put GTA in borderless window mode, or windowed mode, since the overlay doesn't work in fullscreen.
+#### Put GTA in borderless window mode, or windowed mode, since the overlay doesn't work in fullscreen.
 
 ### Features
 - Fully External and works in GTA Online

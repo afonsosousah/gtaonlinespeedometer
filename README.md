@@ -34,6 +34,27 @@ It works on all three versions of GTA V (including online).
 
 version in the video is 2.0
 
+### Customization
+
+[![customSpeedo1](https://i.imgur.com/SsRBVZA.png)](https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/NFSMW2005_2.0.zip)[![customSpeedo2](https://i.imgur.com/1KRLAE3.png)](https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/lambo_2.0.zip)
+
+##### How to load
+- Download the .zip file of the gauge you want
+- Open GTA+Info
+- Click on the checkbox labeled "Custom Gauge" at the top
+- Select the .zip file you downloaded and click "Open"
+- Stonks!!
+
+##### Make your own gauge
+
+- Open GTA+Info and click on the button "Gauge creator"
+- The default background.png and needle.png will load. Ignore them
+- Click on the button "Load needle.png" and choose your needle image (use transparent backgrounds)
+- Click on the button just below labeled "Open background.png" and select you background image (aka Gauge image), both images will load up automatically
+- Change the required values and click on "Apply changes" to load the changes you made to the values
+- When you are happy with the result click on "Save Gauge"
+###### You can edit premade gauges or continue your work by clicking in "Load Gauge" 
+#
 
 ### Changelog
 

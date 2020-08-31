@@ -7,7 +7,7 @@ Thanks to Shirabrixx82 for the original concept and the major part of the offset
 It works on all three versions of GTA V (including online).
 
 #### Put GTA in borderless window mode, or windowed mode, since the overlay doesn't work in fullscreen.
-
+#
 ### Features
 - Fully External and works in GTA Online
 - Customizable Speedometer/Tachometer
@@ -17,7 +17,7 @@ It works on all three versions of GTA V (including online).
 - Supports premade custom gauges
 - Saveable settings
 - Supports Transparency in Gauges
-
+#
 ### Downloads
 
 | Version | Download |
@@ -28,12 +28,12 @@ It works on all three versions of GTA V (including online).
 | 1.2 | [Download 1.2][1.2] |
 | 1.1 | [Download 1.1][1.1] |
 | 1.0| [Download 1.0][1.0] |
-
+#
 ### Preview
 [![Preview Video](/docs/ezgif.com-gif-maker.gif)](https://streamable.com/hp31sj)
 
 version in the video is 2.0
-
+#
 ### Customization
 
 [![customSpeedo1](https://i.imgur.com/SsRBVZA.png)](https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/NFSMW2005_2.0.zip)[![customSpeedo2](https://i.imgur.com/1KRLAE3.png)](https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/lambo_2.0.zip)

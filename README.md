@@ -1,18 +1,14 @@
 # GTA+Info
 
 ---
-
-Also, be sure to put GTA in borderless window mode, or windowed mode, since the overlay doesn't work in fullscreen.
-Fully customizable external Speedometer for GTA Online. Works in GTA 1.51 Update. High performance &amp; Lightweight.
-
-It was rewritten in C# using WPF for v2.0!
-
-It also includes a customizable Speedometer with two different modes (Speedometer and Tachometer(a.k.a. "RPMmeter")).
+### Fully customizable external Speedometer for GTA Online. Works in GTA 1.51 Update. High performance &amp; Lightweight.
+Rewritten in C# using WPF for v2.0
 Thanks to Shirabrixx82 for the original concept and the major part of the offsets utilized and also Gopinath001 for the incredible Pattern Scanner!
-It *should* work on all three versions of GTA V (including online).
-Please report any bugs found 
+It works on all three versions of GTA V (including online).
 
-# Features
+### Put GTA in borderless window mode, or windowed mode, since the overlay doesn't work in fullscreen.
+
+### Features
 - Fully External and works in GTA Online
 - Customizable Speedometer/Tachometer
 - Displays coordinates and player speed

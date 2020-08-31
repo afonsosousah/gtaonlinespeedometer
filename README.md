@@ -2,7 +2,7 @@
 
 ---
 ### Fully customizable external Speedometer for GTA Online. Works in GTA 1.51 Update. High performance &amp; Lightweight.
-Rewritten in C# using WPF for v2.0
+Rewritten in C# using WPF for v2.0.
 Thanks to Shirabrixx82 for the original concept and the major part of the offsets utilized and also Gopinath001 for the incredible Pattern Scanner!
 It works on all three versions of GTA V (including online).
 

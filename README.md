@@ -1,4 +1,4 @@
-# GTA+Info
+# [![Banner](https://i.imgur.com/4MJTC5Z.png)]
 
 ---
 ### Fully customizable external Speedometer for GTA Online. Works in GTA 1.51 Update. High performance &amp; Lightweight.

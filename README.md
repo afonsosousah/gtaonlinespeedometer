@@ -22,6 +22,7 @@ It works on all three versions of GTA V (including online).
 
 | Version | Download |
 | ------ | ------ |
+| Latest | [Download Latest][Latest] |
 | 2.0 | [Download 2.0][2.0] |
 | 1.3 | [Download 1.3][1.3] |
 | 1.2.1 | [Download 1.2.1][1.2.1] |
@@ -69,6 +70,7 @@ made by afonsosousah
 
 [![N|Solid](/docs/afonso1234logo_trans100x100.gif)](https://www.afonsosousah.xyz)
 
+   [Latest]: <https://github.com/afonsosousah/gtaonlinespeedometer/releases/latest/>
    [2.0]: <https://github.com/afonsosousah/gtaonlinespeedometer/releases/download/2.0/GTA+Info_v2.0.exe/>
    [1.3]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v1.3.exe/>
    [1.2.1]: <https://github.com/afonsosousah/gtaonlinespeedometer/raw/master/GTA%2BInfo_v1.2.1.exe/>

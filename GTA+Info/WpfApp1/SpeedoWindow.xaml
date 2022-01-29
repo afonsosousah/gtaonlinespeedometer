@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:CircularGauge="clr-namespace:CircularGauge;assembly=CircularGauge" x:Class="WpfApp1.Window1"
+        xmlns:CustomSpeedo="clr-namespace:WpfApp1;assembly=WpfApp1"
+        mc:Ignorable="d"
+        Title="Window1" Height="310" Width="310" ResizeMode="NoResize" WindowStyle="None" Visibility="Visible" AllowsTransparency="True"
+        WindowStartupLocation="Manual" 
+        Left="1000" Top="700" Background="Transparent" Topmost="True" ShowInTaskbar="False" Focusable="False">
+    <Grid>
+        <CircularGauge:CircularGaugeControl HorizontalAlignment="Center" Height="300" VerticalAlignment="Center" Width="300" Name="Speedometer1" Radius="150" PointerCapRadius="25" PointerLength="110" PointerThickness="14" RangeIndicatorRadius="0" ScaleLabelRadius="110" ScaleRadius="130" DialBorderThickness="12" ScaleLabelForeground="Black" MajorTickColor="Black" MinorTickColor="Black" AboveOptimalRangeColor="Transparent" BelowOptimalRangeColor="Transparent" OptimalRangeColor="Transparent" DialText="mph" DialTextColor="Black" DialTextFontSize="12" ScaleLabelFontSize="14" MaxValue="200"/>
+        <local:CustomSpeedo HorizontalAlignment="Center" Height="300" VerticalAlignment="Center" Width="300" x:Name="CustomSpeedo"></local:CustomSpeedo>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="310" VerticalAlignment="Top" Width="310"/>
+        <Label x:Name="Speed" Content="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="36" Height="52" HorizontalContentAlignment="Center" Width="122" Margin="94,221,94,37"/>
+        <Label x:Name="SpeedStr" Content="Label" HorizontalAlignment="Center" Margin="94,261,94,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="Gear" Content="0" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36" Height="52" HorizontalContentAlignment="Center" Width="50" Margin="136,165,136,0" Background="{x:Null}"/>
+    </Grid>
+</Window>

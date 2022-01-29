@@ -1,0 +1,75 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:CircularGauge="clr-namespace:CircularGauge;assembly=CircularGauge" x:Class="WpfApp1.MainWindow"
+        mc:Ignorable="d"
+        Title="GTA+Info" Height="300" Width="450" ResizeMode="CanMinimize" KeyDown="MainWindow_KeyDown">
+    <Grid>
+        <Canvas x:Name="Menu">
+            <Button x:Name="Speedometer" Content="Speedometer" HorizontalAlignment="Center" Margin="19,10,15,0" VerticalAlignment="Top" Width="400" Height="50" Click="Speedometer_Click" Grid.RowSpan="2"/>
+            <Button x:Name="Overlay" Content="Overlay" HorizontalAlignment="Center" Margin="19,65,15,0" VerticalAlignment="Top" Width="400" Height="50" Click="Overlay_Click"/>
+            <Button x:Name="Settings" Content="Settings" HorizontalAlignment="Center" Margin="19,120,15,0" VerticalAlignment="Top" Width="400" Height="50" Click="Settings_Click"/>
+            <Button x:Name="About" Content="About" HorizontalAlignment="Center" Margin="19,175,15,0" VerticalAlignment="Top" Width="400" Height="50" Click="About_Click"/>
+            <Label x:Name="label" Content="GTA Status:" HorizontalAlignment="Left" Margin="19,230,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="GTAStatus" Content="Not running" HorizontalAlignment="Left" Margin="88,230,0,0" VerticalAlignment="Top" Foreground="#FFFB0000"/>
+        </Canvas>
+
+        <Canvas x:Name="SpeedometerPage" Visibility="Hidden">
+            <ComboBox x:Name="comboBox" HorizontalAlignment="Center" Margin="19,10,15,0" VerticalAlignment="Top" Width="400" Height="35" SelectedIndex="0" FontSize="16" Background="#00000000" BorderBrush="White" SelectionChanged="ComboBox_SelectionChanged">
+                <Label Content="Speedometer" Width="380" Height="40" BorderBrush="Black" Foreground="Black" Background="#00DDDDDD"/>
+                <Label Content="Tachometer" Width="380" Height="40" Background="#00DDDDDD"/>
+                <Label Content="Custom" Width="380" Height="40" Background="#00DDDDDD"/>
+            </ComboBox>
+            <Button x:Name="button" Content="Gauge Creator" HorizontalAlignment="Left" VerticalAlignment="Top" Width="185" Height="30" Background="#00DDDDDD" Canvas.Left="234" Canvas.Top="79" Click="Button_Click"/>
+            <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Margin="19,79,0,0" VerticalAlignment="Top" Width="190" Height="30" SelectedIndex="0" FontSize="14" SelectionChanged="ComboBox1_SelectionChanged">
+                <Label Background="#00DDDDDD" Content="mph"/>
+                <Label Background="#00DDDDDD" Content="kph"/>
+            </ComboBox>
+            <CheckBox x:Name="checkBox" Content="Adjust Speedometer Position (Use CTRL + Arrow keys or numpad)" HorizontalAlignment="Left" Margin="42,127,0,0" VerticalAlignment="Top" Width="371" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+            <Button x:Name="button1" Content="Dial Color" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Click="Button1_Click" Canvas.Left="19" Canvas.Top="176" Height="28"/>
+            <Button x:Name="button2" Content="Progress Color" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Click="Button2_Click" Canvas.Left="19" Canvas.Top="210" Height="28"/>
+            <Button x:Name="button3" Content="Progress Back Color" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Click="Button3_Click" Canvas.Left="19" Canvas.Top="245" Height="28"/>
+            <Button x:Name="button4" Content="Toggle Progress Bar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Click="Button4_Click" Canvas.Left="19" Canvas.Top="279" Height="28"/>
+            <Button x:Name="button5" Content="Toggle Gears" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Click="Button5_Click" Canvas.Left="19" Canvas.Top="314" Height="28"/>
+            <Button x:Name="button6" Content="Change Max Value" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Canvas.Left="19" Canvas.Top="348" Click="Button6_Click" Height="28"/>
+            <Button x:Name="button9" Content="Back" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Canvas.Left="344" Canvas.Top="423" Click="Back_Click"/>
+            <CircularGauge:CircularGaugeControl x:Name="Speedometer1" Height="200" Canvas.Left="219" Canvas.Top="176" Width="200" Radius="100" RangeIndicatorRadius="0" RangeIndicatorThickness="6" PointerLength="72" ScaleValuePrecision="1" ScaleLabelRadius="70" ScaleRadius="85" PointerThickness="10" ScaleLabelForeground="Black" MinorTickColor="Black" MajorTickColor="Black" OptimalRangeColor="White" AboveOptimalRangeColor="White" BelowOptimalRangeColor="White" DialText="mph" DialTextColor="Black" DialBorderThickness="12" PointerCapRadius="25" MaxValue="200">
+                <CircularGauge:CircularGaugeControl.CacheMode>
+                    <BitmapCache/>
+                </CircularGauge:CircularGaugeControl.CacheMode>
+            </CircularGauge:CircularGaugeControl>
+        </Canvas>
+
+        <Canvas x:Name="OverlayPage" Visibility="Hidden">
+            <Button x:Name="button10" Content="Expanded Radar Mode" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Canvas.Left="20" Canvas.Top="77" Click="Button10_Click"/>
+            <Button x:Name="button11" Content="Change Overlay Color" VerticalAlignment="Top" Width="193" Canvas.Left="226" Canvas.Top="77" RenderTransformOrigin="0.5,0.5" Click="Button11_Click"/>
+            <CheckBox x:Name="checkBox1" Content="Toggle Overlay" Margin="161,37,161,0" VerticalAlignment="Top" Height="22" FontSize="16" IsChecked="True" Checked="CheckBox1_Checked" Unchecked="CheckBox1_Unchecked"/>
+            <Button x:Name="button12" Content="Back" Canvas.Left="344" Canvas.Top="113" Width="75" Click="Button12_Click"/>
+        </Canvas>
+
+        <Canvas x:Name="SettingsPage" Visibility="Hidden">
+            <Button x:Name="button13" Content="Load Settings" HorizontalAlignment="Center" VerticalAlignment="Top" Width="400" Height="50" Canvas.Left="19" Canvas.Top="10" Click="Button13_Click"/>
+            <Button x:Name="button14" Content="Save Settings" HorizontalAlignment="Center" VerticalAlignment="Top" Width="400" Height="50"  Canvas.Left="19" Canvas.Top="65" Click="Button14_Click"/>
+            <Button x:Name="button15" Content="Reset Settings" HorizontalAlignment="Center" VerticalAlignment="Top" Width="400" Height="50" Canvas.Left="19" Canvas.Top="120" Click="Button15_Click"/>
+            <Button x:Name="button16" Content="Back" Canvas.Left="344" Canvas.Top="175" Width="75" Click="Button16_Click"/>
+        </Canvas>
+
+        <Canvas x:Name="AboutPage" Visibility="Hidden">
+            <Label x:Name="label1" Content="GTA+Info v2.0 created by afonsosousah&#xD;&#xA;&#xD;&#xA;Credits:&#xD;&#xA;Shirabrixx82 for the original concept and the major part of the offsets utilized&#xD;&#xA;Gopinath001 for the incredible &#xD;&#xA;&#xD;&#xA;If you have any issues leave a comment on the" Canvas.Left="12" Canvas.Top="9"/>
+            <TextBlock Canvas.Left="184" Canvas.Top="78">           
+                <Hyperlink NavigateUri="https://github.com/Gopinath001/MemoryPatternScanner" RequestNavigate="Hyperlink_RequestNavigate">
+                    Pattern Scanner
+                </Hyperlink>
+            </TextBlock>
+            <TextBlock Canvas.Left="265" Canvas.Top="109">           
+                <Hyperlink NavigateUri="https://www.unknowncheats.me/forum/grand-theft-auto-v/409720-gta-info.html" RequestNavigate="Hyperlink_RequestNavigate1">
+                    UC thread
+                </Hyperlink>
+            </TextBlock>
+            <Button x:Name="button17" Content="Back" Canvas.Left="343" Canvas.Top="131" Width="75" Click="Button17_Click"/>
+        </Canvas>
+    </Grid>
+</Window>

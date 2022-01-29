@@ -1,0 +1,15 @@
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\bin\Release\WpfApp1.exe.config
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\bin\Release\WpfApp1.exe
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\bin\Release\WpfApp1.pdb
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\MainWindow.g.cs
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\App.g.cs
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\WpfApp1_MarkupCompile.cache
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\WpfApp1_MarkupCompile.lref
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\MainWindow.baml
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\WpfApp1.g.resources
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\WpfApp1.Properties.Resources.resources
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\WpfApp1.exe
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\WpfApp1.pdb
+C:\Users\Jogos\source\repos\GTA+Info\WpfApp1\obj\Release\WpfApp1.csprojAssemblyReference.cache

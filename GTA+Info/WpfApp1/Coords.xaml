@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp1.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window3" Height="102.966" Width="463.453" ResizeMode="NoResize" Topmost="True" ShowInTaskbar="False" Background="Transparent" WindowStyle="None" AllowsTransparency="True">
+    <Grid>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" FontSize="16" Foreground="#FF919191"/>
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" FontSize="16" Foreground="#FF919191"/>
+
+    </Grid>
+</Window>

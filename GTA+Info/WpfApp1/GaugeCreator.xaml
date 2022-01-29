@@ -1,0 +1,57 @@
+﻿<Window x:Class="WpfApp1.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="GaugeCreator" Height="660" Width="450"
+        Visibility="Hidden">
+    <Grid Margin="0,-1,0,1">
+        <local:CustomSpeedo HorizontalAlignment="Center" Height="300" VerticalAlignment="Center" Width="300" x:Name="CustomSpeedo1" Margin="0,27,0,272"></local:CustomSpeedo>
+        <Button x:Name="button" Content="Load Gauge" HorizontalAlignment="Left" Margin="45,384,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click"/>
+        <Button x:Name="button1" Content="Save Gauge" HorizontalAlignment="Left" Margin="165,384,0,0" VerticalAlignment="Top" Width="115" Click="Button1_Click"/>
+        <Button x:Name="button2" Content="Apply Changes" HorizontalAlignment="Left" Margin="285,384,0,0" VerticalAlignment="Top" Width="115" Click="Button2_Click"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="127,423,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="127,451,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="127,479,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="23" Margin="127,507,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="23" Margin="312,423,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="23" Margin="312,450,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="textBox6" HorizontalAlignment="Left" Height="23" Margin="312,479,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="textBox7" HorizontalAlignment="Left" Height="23" Margin="312,507,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="label" Content="StartAngle" HorizontalAlignment="Left" Margin="46,423,0,0" VerticalAlignment="Top" Height="26"/>
+        <Label x:Name="label1" Content="EndAngle" HorizontalAlignment="Left" Margin="46,449,0,0" VerticalAlignment="Top" Height="28"/>
+        <Label x:Name="label2" Content="MaxValue" HorizontalAlignment="Left" Margin="46,477,0,0" VerticalAlignment="Top" Height="24"/>
+        <Label x:Name="label3" Content="ForceUnit" HorizontalAlignment="Left" Margin="46,505,0,0" VerticalAlignment="Top" Height="24"/>
+        <Label x:Name="label4" Content="Type" HorizontalAlignment="Left" Margin="207,421,0,0" VerticalAlignment="Top" Height="24"/>
+        <Label x:Name="label5" Content="GearsEnabled" HorizontalAlignment="Left" Margin="207,449,0,0" VerticalAlignment="Top" Height="24"/>
+        <Label x:Name="label6" Content="GearLocation" HorizontalAlignment="Left" Margin="207,475,0,0" VerticalAlignment="Top" Height="23"/>
+        <Label x:Name="label7" Content="SpeedLocation" HorizontalAlignment="Left" Margin="207,502,0,0" VerticalAlignment="Top" Height="27"/>
+        <Button x:Name="button3" Content="Load background.png" HorizontalAlignment="Left" Margin="45,546,0,0" VerticalAlignment="Top" Width="177" Height="23" Click="Button3_Click"/>
+        <Button x:Name="button4" Content="Load needle.png" HorizontalAlignment="Left" Margin="227,546,0,0" VerticalAlignment="Top" Width="173" Height="23" Click="Button4_Click"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="46,351,0,0" VerticalAlignment="Top" Width="354" ValueChanged="Slider_ValueChanged" Maximum="100"/>
+        <Button x:Name="button5" Content="Change Speed Color" HorizontalAlignment="Left" Margin="45,574,0,0" VerticalAlignment="Top" Width="177" Click="Button5_Click"/>
+        <Button x:Name="button6" Content="Change Gear Color" HorizontalAlignment="Left" Margin="227,574,0,0" VerticalAlignment="Top" Width="173" Click="Button6_Click"/>
+        <Expander x:Name="expander" Header="" HorizontalAlignment="Left" Height="96" Margin="31,435,0,0" VerticalAlignment="Top" Width="96" Background="Transparent" BorderBrush="#00000000" ExpandDirection="Up" RenderTransformOrigin="0.5,0.5">
+            <Expander.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Expander.RenderTransform>
+            <Label x:Name="label8" Content="Possible Values:&#xA;&quot;no&quot;&#xA;&quot;mph&quot;&#xA;&quot;kph&quot;" HorizontalAlignment="Left" Width="96" Margin="-1,0" Background="White" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleX="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+        </Expander>
+    </Grid>
+</Window>
